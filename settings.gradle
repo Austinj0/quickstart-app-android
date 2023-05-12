@@ -1,0 +1,23 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        maven {
+            url "https://maven.pkg.github.com/UseAlloy/alloy-codeless-lite-android"
+            credentials {
+                username = "<Your GitHub username>"
+                password = "<a GitHub personal access token>"
+            }
+        }
+    }
+}
+rootProject.name = "Alloy Codeless SDK Lite"
+include ':app'

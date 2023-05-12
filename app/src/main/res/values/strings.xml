@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Alloy Codeless SDK Lite</string>
+    <string name="main_start_sdk">Start Alloy</string>
+    <string name="main_create_journey_application">Create Journey Application</string>
+</resources>
