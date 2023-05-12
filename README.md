@@ -25,6 +25,3 @@ maven {
 
 # Usage
 Once everything is working, change production to true before releasing your application.
-
-# Dependencies
-[Alloy Codeless Lite iOS](https://github.com/UseAlloy/alloy-codeless-lite-ios)
